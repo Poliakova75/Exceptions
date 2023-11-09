@@ -8,7 +8,5 @@ public class Main {
 
         Validate.validateLoginAndPassword(login, password, confirmPassword);
         System.out.println("Валидация прошла успешно");
-
-
     }
 }
