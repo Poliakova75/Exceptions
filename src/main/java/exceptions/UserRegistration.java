@@ -3,7 +3,7 @@ package exceptions;
 public class UserRegistration {
     public static void main(String[] args){
             try {
-                registerUser("java_skypro_go", "D_1hWiKjjP_9", "D_1hWiKjjP_9");
+                registerUser("java_skyro_go", "D_1hWiKjjP_9", "D_1hWiKjjP_9");
             } catch (WrongPasswordException | WrongLoginException e) {
                 System.out.println("Неверный пароль: " + e.getMessage());
             }

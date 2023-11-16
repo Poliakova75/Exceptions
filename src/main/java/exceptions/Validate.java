@@ -1,6 +1,6 @@
 package exceptions;
 
-public class Validate {
+public class Validate{
     protected static void validateLoginAndPassword(String login, String password, String confirmPassword) {
 
 
